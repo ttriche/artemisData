@@ -1,0 +1,11 @@
+{
+  "fastaFiles": [
+    "ERCC.fa.gz",
+    "Homo_sapiens.RepBase.20_05.humrep.fa.gz",
+    "Homo_sapiens.RepBase.20_05.humsub.fa.gz"
+  ],
+  "bootstraps": 10,
+  "fastaPath": "fasta",
+  "fastqPath": "fastq",
+  "outputPath": "output"
+}
