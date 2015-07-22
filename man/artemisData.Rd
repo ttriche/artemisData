@@ -42,7 +42,7 @@ results <- lapply(samples,
                   indexName=indexName,
                   fastqPath=fastqPath,
                   fastaPath=fastaPath,
-                  bootstraps=10,
+                  bootstraps=5,
                   outputPath=".")
 merged <- suppressWarnings(mergeKallisto(samples, outputPath="."))
 
