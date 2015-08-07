@@ -1,5 +1,5 @@
 suppressPackageStartupMessages(library(artemisData))
-jsonFile <- system.file("extdata/json", "NS.JSON", package="artemisData")
+jsonFile <- system.file("extdata/json", "ns.json", package="artemisData")
 appSession <- fetchAppSession(jsonFile) ## autofill APPSESSION in paths
 names(appSession$samples) <- appSession$samples ## so column names get set 
 appSession$outputPath <- system.file("extdata", "", package="artemisData")
